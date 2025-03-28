@@ -1,0 +1,82 @@
+*:after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body{
+  background-image:url(./clocl.4.jpg);
+  
+}
+.container{
+background-color:#723B6C;
+  width:40%;
+  min-width:500px;
+  position: absolute;
+  transform:translate(-50%,-50%);
+  top:50%;
+  left:50%;
+  padding: 20px 0;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.338);
+}
+h2{
+  text-align: center;
+  font-size: 40px;
+}
+.timer-display{
+  position:relative;
+  width:80%;
+  background: #A7B9DD;
+  left:4%;
+  color:#F2F4EE;
+  font-size: 50px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.338);
+
+}
+.timer-display .circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  color: #8c52ff;
+  border-radius: 50%;
+  margin: 0 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+.buttons{
+  width: 80%;
+  margin:50px 0 auto 50px;
+  display: flex;
+  justify-content:space-around;
+
+}
+.buttons button{
+  width:120px;
+  height:45px;
+  background-color: chartreuse;
+  color: #fff;
+  border: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 18px;
+border-radius: 10px;
+cursor: pointer;
+outline: none;
+}
+.buttons button:nth-last-child(1){
+  background-color: fuchsia;
+}
+.buttons button:nth-last-child(2){
+  background-color: red;
+}
+.buttons button:hover{
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.25);
+}
